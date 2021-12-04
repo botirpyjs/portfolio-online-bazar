@@ -1,0 +1,15 @@
+.product {
+    border: 3px solid transparent;
+    box-shadow: 0 0 2px 0 #aaa;
+    cursor: pointer;
+    transition: border .3s ease;
+}
+
+.product.selected {
+    border-color: #4CAF50;
+}
+
+.product_image {
+    width: 185px;
+    height: 200px;
+}
